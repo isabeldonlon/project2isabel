@@ -16,7 +16,7 @@
  <center>  <h1 style ="absolute">Isabel's Crazy Random Password Generator</h1>
 <form method='POST' action='index.php'>
 <!--  //create a dropdown list from 1 to 9-->      
- <input type='number' name='quantity' min='1' max ='9'><br>
+ <input type='number' name='quantity' min='0' max ='9'><br>
    
  
       <input type='submit' value='get it'><br>
