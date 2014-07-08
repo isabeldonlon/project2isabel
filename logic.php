@@ -30,7 +30,7 @@ foreach ($words as $rand_num => $rand ) {
   $wordlist[$rand_num] = "$rand";
 }
 // generate 
-if (is_null(strval($_POST['quantity']) ) == true) {
+if (isset(strval($_POST['quantity']) ? $_GET['quantity' : null]) == true) {
 } else {
   $num_words = strval ( $_POST['quantity'] );
 }
