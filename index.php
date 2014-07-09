@@ -30,5 +30,8 @@
          <!-- print random set of words --> 
 <div><?php echo $random; ?><br>
       <a href = /index.php> Give it another shot</a></center></div>
+      <center><p> This program is based on the <a href="https://xkcd.com/936/">xkcd password generator</a></p>
+<img src="http://imgs.xkcd.com/comics/password_strength.png"/></center>
+
   </body>
 </html>  
