@@ -1,18 +1,4 @@
 
-<!-- 
-    Saved first attempt for reference
-/*for($i = $_GET[$minlength]; $i <= $_GET[$maxlength]; $i++){
-    if (isset($words)) =0 ; {
-    echo "WRONG";
-} 
-if (isset empty($words)) <9; {
-    echo $_GET;
-}
-else {
-    password_length =
-}
-*/ -->
-
 
 <?php
 //declare variables
@@ -47,7 +33,6 @@ if (isset(strval($_POST['quantity']) ? $_GET['quantity' : null]) == true) {
 //                 }
 
 
-//save the value given by user
 $_SESSION['pass'] = $word_length;
 
 $random = ''; 
