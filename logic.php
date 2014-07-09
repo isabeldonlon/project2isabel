@@ -21,6 +21,7 @@ if (isset(strval($_POST['quantity']) ? $_GET['quantity' : null]) == true) {
   $num_words = strval ( $_POST['quantity'] );
 }
 
+$_SESSION['pass'] = $word_length;
 
 
 //This is where I was hoping to get the textboxes to display,
@@ -32,13 +33,9 @@ if (isset(strval($_POST['quantity']) ? $_GET['quantity' : null]) == true) {
 //     $symbol = $symbol.rand(0,9);
 //                 }
 
+//saves user info in the user's session
 
-$_SESSION['pass'] = $word_length;
-
-$random = ''; 
-$i = 0;
-
-
+//generates random word based on the nnumber specified by user
 while ( $i < $num_words ) {
     //number of words in word list
   $word = $wordlist[rand(0,350)];
